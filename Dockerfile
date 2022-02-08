@@ -6,5 +6,4 @@ COPY fyber-lab-consul-service.py /
 
 RUN apt update && apt install -y iputils-ping
 
-ENTRYPOINT ["tail", "-f", "/dev/null"]
-# ENTRYPOINT [ "python3", "/fyber-lab-consul-service.py" ]
+ENTRYPOINT [ "python3", "/fyber-lab-consul-service.py" ]
