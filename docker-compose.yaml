@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  
+  consul-service:
+    build: .
+    container_name: consul-service
+    restart: always
+
+networks:
+  default:
+    external: true
+    name: consul
+
+
