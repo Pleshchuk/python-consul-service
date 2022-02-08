@@ -37,5 +37,5 @@ if __name__ == '__main__':
 
     check = consul.Check().tcp(host, port, "5s", "30s", "30s")
     print(check)
-    res=consul_client.GetService("maple")
+    res=consul_client.GetService("fyber-lab")
     print(res)
