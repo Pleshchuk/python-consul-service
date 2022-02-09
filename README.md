@@ -6,4 +6,4 @@ In ```fyber-lab-consul-service.py``` file is described class for registering ser
 Also, you can see there setter and getter methods for adding and getting key/values to/from consul server
 
 ## Service packaging
-The project packages into docker image which uses fyber-lab-consul-service.py file as entrypoint.
+The project packages into docker image which uses ```fyber-lab-consul-service.py``` file as entrypoint.
